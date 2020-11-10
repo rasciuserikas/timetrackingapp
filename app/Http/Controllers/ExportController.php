@@ -25,8 +25,6 @@ class ExportController extends Controller {
         } else {
             return Excel::download(new ReportExport($from_date,$to_date), 'report.xlsx', \Maatwebsite\Excel\Excel::XLSX);
         }
-
-//        return Excel::download(new ReportExport($from_date,$to_date), 'excelname.xlsx');
     }
 }
 

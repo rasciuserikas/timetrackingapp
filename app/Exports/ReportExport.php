@@ -2,15 +2,13 @@
 
 namespace App\Exports;
 
-use App\Models\TimeEntry;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\FromQuery;
-use Maatwebsite\Excel\Concerns\WithHeadings;
+use Illuminate\Contracts\View\View;
+use Maatwebsite\Excel\Concerns\FromView;
 
-class ReportExport implements FromQuery, WithHeadings
-{
+class ReportExport implements FromView {
     /**
     * @return \Illuminate\Support\Collection
     */
@@ -25,22 +23,15 @@ class ReportExport implements FromQuery, WithHeadings
         $this->to_date = $to_date;
     }
 
-    public function query() {
-        $data = DB::table('timeentries')
-            ->where('user_id', Auth::user()->id)
+    public function view(): View
+    {
+        $entries = DB::table('timeentries')->where('user_id', Auth::user()->id)
             ->whereBetween('date', [$this->from_date, $this->to_date])
             ->select('title', 'comment', 'date', 'timespent')
-            ->orderBy('date');
+            ->orderBy('date')->get();
 
-        return $data;
-    }
-
-    public function headings(): array {
-        return [
-            'Title',
-            'Comment',
-            'Date',
-            'Time spent in minutes'
-        ];
+        return view('entries.table', [
+            'entries' => $entries
+        ]);
     }
 }
