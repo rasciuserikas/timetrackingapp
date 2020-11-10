@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31b434c2-4f0f-4c3f-a6c5-662d0db1cb42" name="Default Changelist" comment="" />
+    <list default="true" id="31b434c2-4f0f-4c3f-a6c5-662d0db1cb42" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +20,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -149,6 +155,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1jxYlHGfxkrroupmRmPFwFDq3Tp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -203,12 +210,25 @@
       <option name="presentableId" value="Default" />
       <updated>1604747358368</updated>
       <workItem from="1604747359457" duration="25174000" />
-      <workItem from="1605008775106" duration="1969000" />
+      <workItem from="1605008775106" duration="2164000" />
     </task>
+    <task id="LOCAL−00001" summary="First commit">
+      <created>1605014447244</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1605014447245</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="852" y="695" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604748989266">
@@ -247,6 +267,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="965" y="453" key="NewPhpClassDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1604925929133" />
+    <state x="880" y="460" key="Vcs.Push.Dialog.v2" timestamp="1605014448665">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="880" y="460" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1605014448665" />
     <state x="1183" y="604" width="512" height="279" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1604749015139">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -263,6 +287,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="972" y="446" width="615" height="548" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1604933045709" />
+    <state x="1102" y="621" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605014416611">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1102" y="621" key="git4idea.remote.GitConfigureRemotesDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1605014416611" />
     <state x="945" y="345" key="run.anything.popup" timestamp="1604835679233">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
